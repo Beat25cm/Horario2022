@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Blog</title>
+        <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet" src= "style.css">
+    <style>
+ html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background-color: #e6ffff;
+    padding: 10px;
+    margin: 0;
+}
+h1 {
+    font-size: 15pt;
+    color: #20bc;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 4px dashed #20bcd5;
+    padding: 10px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.img-circle {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.section {
+    background-color: #ccffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+#header {
+    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+    background-size: cover;
+}
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+#header p {
+    font-size: 25pt;
+    color: #3b464c;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+#td{
+    color:#20bcd5
+}
+.quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+}
+table {
+    width: 100%;
+    font-size: 11pt;
+}
+table, th, td {
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+.selected {
+    background-color: #f36f48;
+    font-weight: bold;
+    color: white;
+}
+
+.selected1 {
+    background-color: #e6ffff;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+    }
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+} 
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
+iframe, audio {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #3fb6b2;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #f36f48;
+}
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color: #3fb6b2;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #43a09d;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+.face {
+    transform: scale(0.4);
+    margin: 0 auto;
+    display: block;
+    margin-top: -35px;
+    margin-bottom: -25px;
+}
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
+
+        
+        
+    </style>
+    </head>
+    
+    <body>
+        <!-- My Schedule section start -->
+        <div class="section">
+            <h1><span>Carlos Lanuza</span></h1>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+                <tr>
+                    <td>7:00 am <br> 8:40</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="selected1">Digital II</td>
+                </tr>
+                <tr>
+                    <td>8:45 am <br> 10:25</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="selected1">Digital II</td>
+                </tr>
+                <tr>
+                    <td>12:40 pm <br> 02:20</td>
+                    <td></td>
+                    <td></td>
+                    <td class= "selected">COM II</td>
+                    <td class ="selected1">Análisis</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>02:25 pm<br> 04:05</td>
+                    <td class="selected1">Control</td>
+                    <td class="selected">COM II</td>
+                    <td class = "selected1">Redes</td>
+                    <td class = "selected1">Análisis</td>
+                    <td class = "selected1">Redes</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>04:10 pm <br> 05:50</td>
+                    <td class="selected1">Control</td>
+                    <td class ="selected">COM II</td>
+                    <td class = "selected1">Redes</td>
+                    <td class = "selected1">Control</td>
+                    <td class = "selected1">Análisis</td>
+                    <td></td>
+                </tr>
+                
+               </tr>
+                <tr>
+                    <td>5:50 pm <br> 07:10</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class = "selected1">Digital II</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <!-- My Schedule section end -->
+        
+    </body>
+</html>
